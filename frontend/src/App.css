@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f8f2;
+  color: #1f2d1f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f7a3f;
+  color: white;
+  padding: 16px 40px;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.page {
+  padding: 50px;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+.actions {
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  background: #1f7a3f;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.button.secondary {
+  background: #6ba96f;
+  margin-left: 10px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-top: 25px;
+}
+
+.success {
+  color: #1f7a3f;
+  font-weight: bold;
+}
